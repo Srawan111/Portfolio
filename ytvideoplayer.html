@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Video Player</title>
     <style>
-        /* Make iframe take up the whole page */
+        /* Full page green background */
         body, html {
             margin: 0;
             padding: 0;
             width: 100%;
             height: 100%;
+            background-color: #008000; /* Green background */
             display: flex;
             justify-content: center;
             align-items: center;
-            overflow: hidden;
         }
-        iframe {
-            width: 100%;
-            height: 100%;
+
+        /* Centered iframe with specified size */
+        #youtube-player {
+            width: 80%;
+            max-width: 640px; /* Maximum width */
+            height: 360px;     /* Aspect ratio 16:9 */
             border: none;
         }
     </style>
