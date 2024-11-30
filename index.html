@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rotating Animation with Input</title>
+    <title>Rainbow with Hard Edges</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -16,11 +16,20 @@
             background-color: #f0f0f0;
         }
 
-        .rotating-shape {
+        .rotating-rainbow {
             width: 100px;
             height: 100px;
-            background: conic-gradient(#4caf50, #2196f3, #4caf50);
-            border-radius: 50%; /* Change this to 0 for a rotating square */
+            background: repeating-conic-gradient(
+                red 0deg 45deg,
+                orange 45deg 90deg,
+                yellow 90deg 135deg,
+                green 135deg 180deg,
+                blue 180deg 225deg,
+                indigo 225deg 270deg,
+                violet 270deg 315deg,
+                red 315deg 360deg
+            );
+            border-radius: 50%; /* Change this to 0 for a square */
             animation: spin 2s linear infinite;
         }
 
@@ -52,7 +61,7 @@
     </style>
 </head>
 <body>
-    <div class="rotating-shape"></div>
+    <div class="rotating-rainbow"></div>
     <div class="input-field">
         <label for="textInput">Enter Text:</label>
         <input type="text" id="textInput" placeholder="Type here...">
