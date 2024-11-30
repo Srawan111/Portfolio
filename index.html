@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rainbow with Hard Edges</title>
+    <title>Rainbow Spinner with Counter</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -17,8 +17,8 @@
         }
 
         .rotating-rainbow {
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             background: repeating-conic-gradient(
                 red 0deg 45deg,
                 orange 45deg 90deg,
@@ -29,8 +29,19 @@
                 violet 270deg 315deg,
                 red 315deg 360deg
             );
-            border-radius: 50%; /* Change this to 0 for a square */
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
             animation: spin 2s linear infinite;
+        }
+
+        .counter {
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
         }
 
         @keyframes spin {
@@ -61,10 +72,23 @@
     </style>
 </head>
 <body>
-    <div class="rotating-rainbow"></div>
+    <div class="rotating-rainbow">
+        <div class="counter" id="counter">0</div>
+    </div>
     <div class="input-field">
         <label for="textInput">Enter Text:</label>
         <input type="text" id="textInput" placeholder="Type here...">
     </div>
+
+    <script>
+        // Counter logic
+        let count = 0;
+        const counterElement = document.getElementById("counter");
+
+        setInterval(() => {
+            count = (count + 1) % 10001; // Increment and reset after 10,000
+            counterElement.textContent = count;
+        }, 10); // Update every 10ms
+    </script>
 </body>
 </html>
