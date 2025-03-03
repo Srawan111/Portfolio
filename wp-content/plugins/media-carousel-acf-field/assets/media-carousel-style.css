@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --btn-bg: rgba(70, 70, 70, 0.5);
+    --btn-bg-hover:rgba(141, 141, 141, 0.5);
+  }
+/* body {
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+.carousel {
+    width: 100%;
+    aspect-ratio: 16/9;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #444;
+    border-radius: 10px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    min-width: 100%;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.carousel-item img,
+.carousel-item iframe {
+    width: 100% ;
+    height: 100% !important;
+    object-fit: contain;
+    border: 20px;
+    border-color: red;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    padding: 5px;
+}
+
+.btn {
+    background-color: var(--btn-bg) !important;
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 50px;  /* Fixed width */
+    height: 50px; /* Fixed height to maintain aspect ratio */
+    pointer-events: all;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+   
+    
+}
+
+.btn:hover {
+    background-color: var(--btn-bg-hover)!important;
+}
+
+.counter {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--btn-bg);
+    color: rgb(255, 255, 255);
+    padding: 0px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.fullscreen-btn {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 10px;
+    right: 10px;
+    background:  var(--btn-bg)! important;
+    color: white;
+    padding: 10px 10px; /* Adds space around the button's content */
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+    z-index: 2;
+    display: flex;
+    align-items: center; /* Centers the content vertically */
+    justify-content: center; /* Centers the content horizontally */
+    gap: 10px; /* Adds space between the icon and the text */
+
+}
+
+.fullscreen-btn svg {
+    /* width: 30px;  /* Adjust the size of the SVG 
+    height: 30px; Adjust the size of the SVG */
+    padding: 0px;
+    margin :-5px;
+    color: white;
+}
+
+
+.fullscreen-btn:hover {
+    background: var(--btn-bg-hover)!important;
+}
+
+/* Fullscreen mode */
+.fullscreen {
+    width: 100% !important;
+    height: 100% !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-radius: 0;
+ 
+}
+
+/* Mobile portrait mode */
+@media (max-width: 768px) {
+    .carousel {
+        width: 100%;
+        height: 25vh; /* Adjusting height for portrait mode */
+        border-radius: 0;
+    }
+
+    .carousel-item iframe {
+        height: 100%; /* For mobile portrait, iframe height adjusted */
+    }
+
+    .fullscreen .carousel-item iframe {
+       width:100%;
+       height: calc(100vw * 9 / 16)!important;
+    }
+
+    .fullscreen .carousel-item img {
+        height: auto !important; /* Ensure image isn't cropped in fullscreen mode */
+    }
+.controls{
+    padding: 5px;
+}
+
+    /* Adjust carousel controls for mobile */
+    .controls .btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        align-items: center;
+    }
+    
+    .counter {
+        font-size: 16px;
+        bottom: 10px;
+    }
+
+    .fullscreen-btn {
+        font-size: 20px;
+        padding: 8px;
+        right: 5px;
+    }
+}

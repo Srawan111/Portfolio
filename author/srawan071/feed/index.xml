@@ -8,52 +8,56 @@
 	>
 
 <channel>
-	<title>srawan071 &#8211; Srawan Paudel</title>
-	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
-	<link>./../../../index.html</link>
+	<title>Srawan Paudel &#8211; Srawan Paudel</title>
+	<atom:link href="/author/srawan071/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description></description>
-	<lastBuildDate>Thu, 02 Jan 2025 21:30:17 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 02 Mar 2025 16:48:47 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.7.1</generator>
-	<item>
-		<title>Test Post124</title>
-		<link>./../../../uncategorized/test-post124/index.html</link>
-					<comments>./../../../uncategorized/test-post124/index.html#respond</comments>
-		
-		<dc:creator><![CDATA[srawan071]]></dc:creator>
-		<pubDate>Thu, 02 Jan 2025 21:30:14 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">./../../../index.html?p=1394</guid>
+	<generator>https://wordpress.org/?v=6.7.2</generator>
 
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
-					<wfw:commentRss>./../../../uncategorized/test-post124/feed/index.html</wfw:commentRss>
+<image>
+	<url>/wp-content/uploads/2025/02/cropped-SrawanPaudel1-32x32.png</url>
+	<title>Srawan Paudel &#8211; Srawan Paudel</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>How to Download, Install, Check version, uninstall and Launch APKs in Unity: A Complete Guide</title>
+		<link>/unity/how-to-download-installcheck-versionuninstall-and-launch-apks-in-unity-a-complete-guide/</link>
+					<comments>/unity/how-to-download-installcheck-versionuninstall-and-launch-apks-in-unity-a-complete-guide/#respond</comments>
+		
+		<dc:creator><![CDATA[Srawan Paudel]]></dc:creator>
+		<pubDate>Mon, 17 Feb 2025 09:49:57 +0000</pubDate>
+				<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">https://blog.srawanpaudel.com.np/?p=123</guid>
+
+					<description><![CDATA[In mobile game development, especially when targeting Android devices, managing APK files—installing, updating, and uninstalling—becomes essential for delivering seamless experiences. However, implementing these features can sometimes be a daunting task for Unity developers. That&#8217;s where the APKUtils package comes in handy. It provides an easy way to check if an app is installed, launch it, uninstall it, [&#8230;]]]></description>
+		
+					<wfw:commentRss>/unity/how-to-download-installcheck-versionuninstall-and-launch-apks-in-unity-a-complete-guide/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
-		<title>Hello world!</title>
-		<link>./../../../uncategorized/hello-world/index.html</link>
-					<comments>./../../../uncategorized/hello-world/index.html#comments</comments>
+		<title>Mastering Singleton Patterns in Unity with a Reusable Base Class</title>
+		<link>/unity/simplifying-singleton-patterns-in-unity-with-a-reusable-base-class/</link>
+					<comments>/unity/simplifying-singleton-patterns-in-unity-with-a-reusable-base-class/#respond</comments>
 		
-		<dc:creator><![CDATA[srawan071]]></dc:creator>
-		<pubDate>Sat, 19 Oct 2024 16:40:17 +0000</pubDate>
-				<category><![CDATA[Uncategorized]]></category>
-		<guid isPermaLink="false">./../../../index.html?p=1</guid>
+		<dc:creator><![CDATA[Srawan Paudel]]></dc:creator>
+		<pubDate>Tue, 11 Feb 2025 20:15:06 +0000</pubDate>
+				<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">https://blog.srawanpaudel.com.np/?p=77</guid>
 
-					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
-										<content:encoded><![CDATA[
-<p>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</p>
-]]></content:encoded>
-					
-					<wfw:commentRss>./../../../uncategorized/hello-world/feed/index.html</wfw:commentRss>
-			<slash:comments>1</slash:comments>
+					<description><![CDATA[Singleton patterns are a fundamental part of many Unity projects, ensuring that a class has only one instance throughout the game. However, writing Singleton code repeatedly for different classes can be tedious and error-prone. In this blog post, we&#8217;ll explore a streamlined approach to implementing Singletons in Unity using a reusable base class. This class [&#8230;]]]></description>
+		
+					<wfw:commentRss>/unity/simplifying-singleton-patterns-in-unity-with-a-reusable-base-class/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
 		
 		
 			</item>
