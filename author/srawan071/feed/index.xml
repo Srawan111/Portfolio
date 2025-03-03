@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Srawan Paudel &#8211; Srawan Paudel</title>
-	<atom:link href="/author/srawan071/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="https://srawan111.github.io/Portfolio/author/srawan071/feed/" rel="self" type="application/rss+xml" />
+	<link>https://srawan111.github.io/Portfolio/</link>
 	<description></description>
 	<lastBuildDate>Sun, 02 Mar 2025 16:48:47 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,16 +21,16 @@
 	<generator>https://wordpress.org/?v=6.7.2</generator>
 
 <image>
-	<url>/wp-content/uploads/2025/02/cropped-SrawanPaudel1-32x32.png</url>
+	<url>https://srawan111.github.io/Portfolio/wp-content/uploads/2025/02/cropped-SrawanPaudel1-32x32.png</url>
 	<title>Srawan Paudel &#8211; Srawan Paudel</title>
-	<link>/</link>
+	<link>https://srawan111.github.io/Portfolio/</link>
 	<width>32</width>
 	<height>32</height>
 </image> 
 	<item>
 		<title>How to Download, Install, Check version, uninstall and Launch APKs in Unity: A Complete Guide</title>
-		<link>/unity/how-to-download-installcheck-versionuninstall-and-launch-apks-in-unity-a-complete-guide/</link>
-					<comments>/unity/how-to-download-installcheck-versionuninstall-and-launch-apks-in-unity-a-complete-guide/#respond</comments>
+		<link>https://srawan111.github.io/Portfolio/unity/how-to-download-installcheck-versionuninstall-and-launch-apks-in-unity-a-complete-guide/</link>
+					<comments>https://srawan111.github.io/Portfolio/unity/how-to-download-installcheck-versionuninstall-and-launch-apks-in-unity-a-complete-guide/#respond</comments>
 		
 		<dc:creator><![CDATA[Srawan Paudel]]></dc:creator>
 		<pubDate>Mon, 17 Feb 2025 09:49:57 +0000</pubDate>
@@ -39,15 +39,15 @@
 
 					<description><![CDATA[In mobile game development, especially when targeting Android devices, managing APK files—installing, updating, and uninstalling—becomes essential for delivering seamless experiences. However, implementing these features can sometimes be a daunting task for Unity developers. That&#8217;s where the APKUtils package comes in handy. It provides an easy way to check if an app is installed, launch it, uninstall it, [&#8230;]]]></description>
 		
-					<wfw:commentRss>/unity/how-to-download-installcheck-versionuninstall-and-launch-apks-in-unity-a-complete-guide/feed/</wfw:commentRss>
+					<wfw:commentRss>https://srawan111.github.io/Portfolio/unity/how-to-download-installcheck-versionuninstall-and-launch-apks-in-unity-a-complete-guide/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
 			</item>
 		<item>
 		<title>Mastering Singleton Patterns in Unity with a Reusable Base Class</title>
-		<link>/unity/simplifying-singleton-patterns-in-unity-with-a-reusable-base-class/</link>
-					<comments>/unity/simplifying-singleton-patterns-in-unity-with-a-reusable-base-class/#respond</comments>
+		<link>https://srawan111.github.io/Portfolio/unity/simplifying-singleton-patterns-in-unity-with-a-reusable-base-class/</link>
+					<comments>https://srawan111.github.io/Portfolio/unity/simplifying-singleton-patterns-in-unity-with-a-reusable-base-class/#respond</comments>
 		
 		<dc:creator><![CDATA[Srawan Paudel]]></dc:creator>
 		<pubDate>Tue, 11 Feb 2025 20:15:06 +0000</pubDate>
@@ -56,7 +56,7 @@
 
 					<description><![CDATA[Singleton patterns are a fundamental part of many Unity projects, ensuring that a class has only one instance throughout the game. However, writing Singleton code repeatedly for different classes can be tedious and error-prone. In this blog post, we&#8217;ll explore a streamlined approach to implementing Singletons in Unity using a reusable base class. This class [&#8230;]]]></description>
 		
-					<wfw:commentRss>/unity/simplifying-singleton-patterns-in-unity-with-a-reusable-base-class/feed/</wfw:commentRss>
+					<wfw:commentRss>https://srawan111.github.io/Portfolio/unity/simplifying-singleton-patterns-in-unity-with-a-reusable-base-class/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
